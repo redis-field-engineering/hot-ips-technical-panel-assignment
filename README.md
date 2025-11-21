@@ -67,37 +67,42 @@ We should be able to run `docker-compose up` and see logs being generated.
 Provide instructions for running and testing your solution in the README.
 
 
-
 ## Deliverables
 
 ### Code Implementation
+
 - [ ] `docker-compose.yml` - Orchestrates all services
 - [ ] consuming log data from Redis Stream into Redis data structures
 - [ ] able to run report with all the required modes
 - [ ] clean and well-documented code along with instructions on usage
 
 ### 3. Presentation (3-5 slides)
+
 Prepare a short presentation covering:
 
 #### Slide 1: Problem & Solution Overview
+
 - What is hot IP detection and why is it important?
 - High-level architecture of your solution
 
 #### Slide 2: Technical Implementation
+
 - Redis data structures used and why
 - Key design decisions (time windows, complexity, tradeoffs, etc.)
 
 #### Slide 3: Design for Consuming the Stream
+
 - How you process the stream
 - Overall vs. time-windowed tracking approach
 
 #### Slide 4: Capabilities for Reporting
+
 - The different modes and their use cases
 - Demo of key functionality
 
 #### Slide 5: Challenges & Future Improvements
+
 - Any challenges encountered and how you solved them
 - What you would improve with more time
-
 
 Good luck! 🚀
