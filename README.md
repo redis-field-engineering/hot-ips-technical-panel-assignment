@@ -44,7 +44,7 @@ Sample log entry:
 
 3. **Maintain Time-Windowed Data**
    - Choose an appropriate Redis data structure for tracking IPs within 5-minute time windows
-   - Store IP addresses with their request counts as scores
+   - Store IP addresses and their request counts
    - Consider how you will combine windows together to provide time range results
    - Consider how you will retrieve previous windows using a start time
 
